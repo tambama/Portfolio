@@ -1,0 +1,89 @@
+﻿
+@media screen and (max-width: 920px) {
+    body {
+        width: 100%;
+    }
+}
+
+.logo {
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+    .logo h1 {
+        font-size: 52px;
+        color: #02b3e4;
+        vertical-align: middle;
+        padding-left: 10px;
+        text-shadow: 2px 3px 0 #a1e7fb;
+        font-weight: bold;
+    }
+
+.name-right > h1, h3 {
+    text-transform: uppercase
+}
+
+@media screen and (max-width: 990px) {
+    .logo h1 {
+        text-align: center;
+    }
+
+    .name-right > h1, h3 {
+        text-align: center;
+    }
+}
+
+.line {
+    background: #7d97ad;
+    height: 5px;
+}
+
+.hero {
+    padding: 15px 0;
+    height: 400px;
+    overflow: hidden;
+}
+
+    .hero img {
+        width: 100%;
+    }
+
+.featured-work {
+    padding: 0;
+    margin: 0;
+}
+
+    .featured-work h1 {
+        color: #7d97ad;
+    }
+
+.work img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.work h3 {
+    color: #2d3c49;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: #7d97ad;
+}
+
+.work a {
+    display: block;
+    height: 40px;
+    padding-top: 7px;
+    background-color: #f3f0f0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    margin: 40px 0 10px 0;
+}
